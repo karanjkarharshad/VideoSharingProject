@@ -26,7 +26,7 @@
 	         <li class="active"><a href="#">Home</a></li>
 	         <li><a href="#">Software</a></li>
 	         <li><a href="#">Music</a></li>
-					 <li><a href="#">Contact Us</a></li>
+					 <li><a href="#">Contact US</a></li>
 				 	</ul>
 				</div>
 			</div>
