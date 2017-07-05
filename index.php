@@ -11,7 +11,7 @@
 	</head>
 
 	<body>
-		<div class="navbar navbar-inverse">
+		<div class="navbar navbar-default">
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -24,14 +24,13 @@
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav navbar-right">
 	         <li class="active"><a href="#">Home</a></li>
-	         <li><a href="#">Page 1</a></li>
-	         <li><a href="#">Page 2</a></li>
+	         <li><a href="#">Software</a></li>
+	         <li><a href="#">Music</a></li>
+					 <li><a href="#">Contact Us</a></li>
 				 	</ul>
 				</div>
 			</div>
     </div>
-
-
 	</body>
 
 </html>
