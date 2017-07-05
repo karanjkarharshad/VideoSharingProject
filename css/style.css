@@ -1,0 +1,15 @@
+.navbar-custom{
+  position: absolute;
+  height:0px;
+  width:100%;
+  background-color: blue;
+  color: black;
+}
+
+
+/*Added Header*/
+header{
+  background-color: red;
+  width:100%;
+  height:300px;
+}
