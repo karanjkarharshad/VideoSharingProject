@@ -1,23 +1,101 @@
+/*Padding between the Page Content and the Footer */
+.page-content{
+  padding-bottom: 100px;
+  background-color:#99ffff ;
+}
+/*Navigation Menu at the top of the page */
 .navbar-custom{
   position: absolute;
-  top:0;
+  top: 0;
   width:100%;
-
 }
-/*Added Header*/
+
+/*Added Header behind the navigation menu*/
 header{
   background-image: url(../images/indexImage.png);
-  /*background-color: red;*/
   width:100%;
   height:300px;
+  padding: 100px 50px;
+  color: #e6004c;
+}
+/*Styling of the Links of Navigation Bar*/
+.navbar-custom a{
+  color: #000000;
+  font-weight:bold;
 }
 
-.navbar a{
+.navbar-custom li a{
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 18px;
+  transition: 0.5s background-color;
+}
+/*The Menu Button icon-bar styling*/
+.icon-bar{
+  background-color: black;
+}
+/*The Sub-Menu styling*/
+.navbar-sub li a{
+  transition: 0.5s #b3b3b3;
+  margin:0px 10px;
+  padding-right: 80px;
+  padding-left: 80px;
+  color:#e6004c;
+  font-size: 18px;
+  background-color: #f2f2f2;
+}
+/*The Post*/
+.post{
+  border-bottom: solid 3px black;
+  padding:30px;
+}
+
+/*Change the color Title of the post */
+.post-title{
+  color: maroon;
+}
+
+/*Title of the post,when hovering over Title of the post */
+.post-title:hover{
+  color: maroon;
+  text-decoration: none;
+  text-shadow: 0px 4px 4px silver;
+}
+
+
+/*The Bottom links in the Post*/
+.meta{
+  padding-bottom: 5px;
+}
+/*The span in the Post*/
+.post span{
+  padding-right: 10px;
+}
+/*The styling of the Headers of the Post on the Right hand section of the Page*/
+.page-header{
+  border-bottom: 2px solid red;
+}
+/*The Links in the right hand side of the page eg:First Post, Second Post etc*/
+.custom-sidebar-list-item{
+  border-bottom: 2px solid maroon;
+  display: block;
+  padding: 15px;
+  color:maroon;
+}
+/*The hover events for the above page*/
+.custom-sidebar-list-item:hover{
+  background-color: grey;
   color: white;
-  font-weight: bold !important;
+  text-decoration: none;
 }
-
-.navbar li a:hover{
-  color: brown;
-
+/*Post of the day*/
+.day-post{
+  background-color: yellow;
+  border:3px solid black;
+  padding:10px;
+}
+/*Footer Styling*/
+.footer{
+  color: white;
+  margin:20px;
 }
